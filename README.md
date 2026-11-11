@@ -46,7 +46,7 @@ Also each of us needs unit tests + instrumented (espresso) tests for our own sec
 ## who does what (change it if you want to swap)
 
 - **Memories + home page (req 1):** Yaseen
-- **Plans + help dialog (req 12):** ______ (put all our names in the help dialog, it only has mine right now)
+- **Plans + help dialog (req 12):** bigalthefirst1
 - **Pings + second language (req 13):** ______ (make sure every string has a british version)
 - **Our Days + class diagram / use case diagram:** ______
 
