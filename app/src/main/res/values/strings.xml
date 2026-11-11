@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Us</string>
+    <string name="author_name">Rusanth Pirabakaran</string>
+
+    <!-- Home -->
+    <string name="tagline">One private place for the little things.</string>
+    <string name="wordmark">us.</string>
+    <string name="together_for">Together for</string>
+    <string name="explore_us">Explore us</string>
+    <string name="days_unit">days</string>
+    <string name="summary_no_date">Set your anniversary in Our Days to start counting.</string>
+    <string name="summary_progress">%1$d days to your day-%2$d milestone</string>
+    <string name="section_memories">Memories</string>
+    <string name="section_memories_sub">Your favorite moments, saved</string>
+    <string name="section_plans">Plans</string>
+    <string name="section_plans_sub">Dates to look forward to</string>
+    <string name="section_ping">Pings</string>
+    <string name="section_ping_sub">Send a little love now</string>
+    <string name="section_days">Our Days</string>
+    <string name="section_days_sub">Count the days together</string>
+
+    <!-- Common -->
+    <string name="action_help">Help</string>
+    <string name="action_language">Language</string>
+    <string name="language_us">English (United States)</string>
+    <string name="language_gb">English (United Kingdom)</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="error_title_required">Please enter a title</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_date">Date</string>
+
+    <!-- Help dialog -->
+    <string name="help_title">How to use Us</string>
+    <string name="help_author">Author: %1$s</string>
+    <string name="help_version">%1$s - version %2$s</string>
+    <string name="help_main">Tap a section card, or its icon in the toolbar, to open it. Use the globe icon to switch between American and British English. Tap the ? icon on any screen for help. Everything is organized into four sections.</string>
+    <string name="help_memories">Tap + to add a memory with a title, note, mood and date. Tap a memory to read it in full. Tap the bin icon to delete it; use Undo in the message at the bottom if you change your mind. Rotate your phone to see the list and details side by side.</string>
+    <string name="help_memory_detail">Read the full memory here. Tap Delete memory to remove it.</string>
+    <string name="help_plans">Tap + to plan a date with a place and day. Tick the box when you have done it. Tap a plan for details, or the bin icon to delete it.</string>
+    <string name="help_ping">Write an optional note, then tap Thinking of You, Miss You or Send a Hug. Your sent pings are listed below. Clear removes the history. Customize the note however you like.</string>
+    <string name="help_days">Tap Set anniversary to choose the day you got together. The big number shows how many days you have been together, and the bar shows progress to the next 100-day milestone.</string>
+
+    <!-- Memories -->
+    <string name="memory_details">Memory</string>
+    <string name="add_memory">New memory</string>
+    <string name="hint_note">What made it special?</string>
+    <string name="hint_mood">Mood</string>
+    <string name="memories_empty">No memories yet. Tap + to add your first one.</string>
+    <string name="memory_meta">%1$s - %2$s</string>
+    <string name="memory_saved">Memory saved</string>
+    <string name="memory_deleted">Memory deleted</string>
+    <string name="memory_not_found">That memory no longer exists</string>
+    <string name="memory_no_note">No note was added.</string>
+    <string name="delete_memory">Delete memory</string>
+
+    <!-- Plans -->
+    <string name="add_plan">New plan</string>
+    <string name="hint_place">Where?</string>
+    <string name="plans_empty">No plans yet. Tap + to plan a date.</string>
+    <string name="plan_meta">%1$s - %2$s</string>
+    <string name="plan_saved">Plan saved</string>
+    <string name="plan_deleted">Plan deleted</string>
+    <string name="plan_no_place">No place chosen</string>
+    <string name="plan_status_done">Done</string>
+    <string name="plan_status_upcoming">Coming up</string>
+    <string name="label_when">When</string>
+    <string name="label_where">Where</string>
+    <string name="label_status">Status</string>
+
+    <!-- Pings -->
+    <string name="ping_thinking">Thinking of You</string>
+    <string name="ping_miss_you">Miss You</string>
+    <string name="ping_hug">Send a Hug</string>
+    <string name="ping_note_hint">Add a note (optional)</string>
+    <string name="ping_note_quote">"%1$s"</string>
+    <string name="ping_sent">%1$s ping sent</string>
+    <string name="ping_history">Recent pings</string>
+    <string name="ping_clear">Clear</string>
+    <string name="ping_history_cleared">Ping history cleared</string>
+    <string name="pings_empty">No pings yet. Send your first one above.</string>
+
+    <!-- Our Days -->
+    <string name="days_together_label">days together</string>
+    <string name="days_not_set">Choose the day you got together.</string>
+    <string name="days_detail">Since %1$s - next anniversary in %2$d days</string>
+    <string name="days_milestone">Next milestone: day %1$d</string>
+    <string name="set_anniversary">Set anniversary</string>
+    <string name="anniversary_saved">Anniversary saved</string>
+    <string name="error_future_date">The anniversary cannot be in the future</string>
+</resources>
