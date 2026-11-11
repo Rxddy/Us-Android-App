@@ -6,35 +6,8 @@ split between us (see "who does what" at the bottom).
 The look is copied from the ios app, screenshots are in `docs/ios-reference/` so you can see what we're
 going for (dark brown background, orange buttons, serif text for big stuff, little tinted cards).
 
-## running it
 
-1. open the `UsAndroid` folder in Android Studio (File > Open)
-2. let gradle sync. it uses the same setup as the assignments (compileSdk 37, minSdk 30)
-3. hit run on an emulator or your phone
 
-if gradle freaks out with "operation timed out", the folder is probably inside an icloud/onedrive synced
-folder. move it somewhere normal.
-
-## what's in it
-
-Home screen has 4 cards (Memories, Plans, Pings, Our Days). the same 4 are also icons in the toolbar.
-help + language are in the 3 dot menu.
-
-```
-app/src/main/java/com/us/couples/
-  BaseActivity        every screen extends this. toolbar, help button, status bar spacing
-  HelpDialog          the help popup (author, version, instructions)
-  MainActivity        home screen
-  Background          runs db work on a background thread (ExecutorService) and posts back to main thread
-  UsDatabase          sqlite helper, tables: memories, plans, pings
-  Memory/Plan/Ping    plain data classes
-  Dates, DaysCalculator   date helpers (DaysCalculator has unit tests)
-
-  MemoriesActivity, MemoryAdapter, MemoryDetailActivity, MemoryDetailFragment
-  PlansActivity, PlanAdapter
-  PingActivity, PingAdapter
-  OurDaysActivity
-```
 
 ### how a screen works (use Memories as the example)
 
