@@ -5,4 +5,5 @@
     <string name="help_memories">Tap + to add a memory with a title, note, mood and date. Tap a memory to read it in full. Tap the bin icon to delete it; use Undo in the message at the bottom if you change your mind. Turn your phone sideways to see the list and details side by side.</string>
     <string name="help_ping">Write an optional note, then tap Thinking of You, Miss You or Send a Hug. Your sent pings are listed below. Clear removes the history. Customise the note however you like.</string>
     <string name="help_days">Tap Set anniversary to choose the day you got together. The big number shows how many days you have been together, and the bar shows progress to the next 100-day milestone.</string>
+    <string name="help_plans">Tap + to plan a date with a place and day. Tick the box when you have done it. Tap a plan for details, or the bin icon to delete it.</string>
 </resources>

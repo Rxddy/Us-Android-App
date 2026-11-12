@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Us</string>
-    <string name="author_name">Rusanth Pirabakaran</string>
+    <string name="author_name">Abdullah Haleem Mahar, Ali Bah, Nadeem Almalki, Rusanth Pirabakaran, Yaseen Elyamani</string>
 
     <!-- Home -->
     <string name="tagline">One private place for the little things.</string>
@@ -40,9 +40,9 @@
     <string name="help_author">Author: %1$s</string>
     <string name="help_version">%1$s - version %2$s</string>
     <string name="help_main">Tap a section card, or its icon in the toolbar, to open it. Use the globe icon to switch between American and British English. Tap the ? icon on any screen for help. Everything is organized into four sections.</string>
-    <string name="help_memories">Tap + to add a memory with a title, note, mood and date. Tap a memory to read it in full. Tap the bin icon to delete it; use Undo in the message at the bottom if you change your mind. Rotate your phone to see the list and details side by side.</string>
+    <string name="help_memories">Tap + to add a memory with a title, note, mood and date. Tap a memory to read it in full. Tap the trash icon to delete it; use Undo in the message at the bottom if you change your mind. Rotate your phone to see the list and details side by side.</string>
     <string name="help_memory_detail">Read the full memory here. Tap Delete memory to remove it.</string>
-    <string name="help_plans">Tap + to plan a date with a place and day. Tick the box when you have done it. Tap a plan for details, or the bin icon to delete it.</string>
+    <string name="help_plans">Tap + to plan a date with a place and day. Tick the box when you have done it. Tap a plan for details, or the trash icon to delete it.</string>
     <string name="help_ping">Write an optional note, then tap Thinking of You, Miss You or Send a Hug. Your sent pings are listed below. Clear removes the history. Customize the note however you like.</string>
     <string name="help_days">Tap Set anniversary to choose the day you got together. The big number shows how many days you have been together, and the bar shows progress to the next 100-day milestone.</string>
 

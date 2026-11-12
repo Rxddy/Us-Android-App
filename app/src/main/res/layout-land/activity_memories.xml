@@ -11,8 +11,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/primary"
-        app:titleTextColor="@color/on_primary"
+        android:background="@color/background"
+        app:titleTextAppearance="@style/Text.Toolbar"
         android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar" />
 
     <LinearLayout

@@ -47,8 +47,10 @@ public class PlanAdapter extends RecyclerView.Adapter<PlanAdapter.Holder> {
     public void onBindViewHolder(@NonNull Holder holder, int position) {
         Plan p = items.get(position);
         holder.title.setText(p.title);
-        holder.meta.setText(holder.itemView.getContext()
-                .getString(R.string.plan_meta, Dates.pretty(p.date), p.place));
+        String when = Dates.pretty(p.date);
+        holder.meta.setText(p.place == null || p.place.isEmpty()
+                ? when
+                : holder.itemView.getContext().getString(R.string.plan_meta, when, p.place));
         holder.done.setOnCheckedChangeListener(null);
         holder.done.setChecked(p.done);
         holder.done.setOnCheckedChangeListener((button, checked) -> listener.onToggleDone(p, checked));
